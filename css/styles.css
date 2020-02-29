@@ -37,41 +37,11 @@
   
   @-webkit-keyframes glow {
     from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px yellowgreen, 0 0 40px yellowgreen, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen;
+      text-shadow: 0 0 20px  orangered, 0 0 20px orangered, 0 0 30px yellowgreen, 0 0 40px yellowgreen, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen;
     }
     
     to {
-      text-shadow: 0 0 20px #fff, 0 0 30px yellowgreen, 0 0 40px greenyellow, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen, 0 0 80px yellowgreen;
+      text-shadow: 0 0 20px orangered, 0 0 30px yellowgreen, 0 0 40px greenyellow, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen, 0 0 80px yellowgreen;
     }
   }
-  .slide-container{
-      width: 800px;
-      height: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      
-      text-align: center;
-  }
-  .image-container{
-      width:2400px;
-      height:600px;
-      position:relative;
-      transition: left 2s;
-      -webkit-transition:left 2s ;
-  }
-  .slider-image{
-      float:left;
-      margin: 0px;
-      padding: 0px;
-  }
-  .button-container{
-      top:-2px;
-      position: relative;
-  }
-  .slider-button{
-      display:-webkit-inline-flex;
-      height: 10px;
-      width: 10px;
-      border-radius: 5px;
-      background-color: black;
-  }
+  
