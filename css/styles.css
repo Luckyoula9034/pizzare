@@ -1,5 +1,5 @@
 .header{
-    background-image: url("https://bit.ly/2PBvyga" );
+    background-image: url("https://bit.ly/39eXQoy" );
     
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@
   }
   .glow {
     font-size: 80px;
-    color: #fff;
+    color:red;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -44,4 +44,3 @@
       text-shadow: 0 0 20px orangered, 0 0 30px yellowgreen, 0 0 40px greenyellow, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen, 0 0 80px yellowgreen;
     }
   }
-  
