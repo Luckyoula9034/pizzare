@@ -44,11 +44,15 @@
       text-shadow: 0 0 20px orangered, 0 0 30px yellowgreen, 0 0 40px greenyellow, 0 0 50px yellowgreen, 0 0 60px yellowgreen, 0 0 70px yellowgreen, 0 0 80px yellowgreen;
     }
   }
+  *{
+    padding:0px;
+    margin: 0px;
+  }
 
 #menu {
   text-align: center;
 }
-#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8:hover{
   display: none;
   color: skyblue;
   width: 100%;
@@ -65,4 +69,10 @@
   font-size: 30px;
   padding-top: 2px;
 }
+.menu {
+  padding-bottom: 17px;
+  text-align: center;
+  width: 100%;
+}
+
 
