@@ -52,7 +52,7 @@
 #menu {
   text-align: center;
 }
-#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8:hover{
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
   display: none;
   color: skyblue;
   width: 100%;
@@ -73,6 +73,6 @@
   padding-bottom: 17px;
   text-align: center;
   width: 100%;
+  
 }
-
 
