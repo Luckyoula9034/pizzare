@@ -1,6 +1,7 @@
 /* *{
   overflow-x: hidden;
 } */
+
 .header {
   background-image: url("https://bit.ly/39eXQoy");
   background-attachment: fixed;
@@ -13,14 +14,17 @@
 .i {
   text-align: center;
   font-size: 90px;
-  padding: 60px
+  padding: 60px;
+  font-family: 'Lacquer', sans-serif;
 }
 
 .f {
   text-align: center;
   font-size: 40px;
   padding: 30px
+  
 }
+
 
 #c {
 
@@ -92,6 +96,7 @@ body {
   text-align: center;
   font-size: 30px;
   padding-top: 2px;
+  font-family: 'Lacquer', sans-serif;
 }
 
 .menu {
