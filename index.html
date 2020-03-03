@@ -11,6 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <link rel="shortcut icon" src="https://bit.ly/39jFe7b" type="image/x-icon">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <header>
             <img src="https://bit.ly/3caUi8V" alt="" width="70px" height="70px">
             <div class="i">
-                <h1 class="glow">PIZZARE'</h1>
+                <h1 class="glow">PIZZA  </h1>
                 <img id="c" src="https://bit.ly/39jFe7b" alt="" width="100px" height="100px">
                 <div>
                     <a href="#order">
@@ -39,7 +40,7 @@
     </div>
     <br>
     <div id=menu class="jumbotron">
-        <h1 style="color: aqua;">choose your tatse</h1>
+        <h1 style="color: aqua;">choose your taste</h1>
         <div class="row">
 
 
@@ -78,85 +79,101 @@
                 <p id="overlay8" class="text">pastiries</p>
             </div>
 
-            <div>
+            <div class="container">
                 <br>
                 <br>
+                
                 <form>
-                    <fieldset>
-                        <legend></legend>
-                        <div class="form-grp ">
-                            <lable style="color: aqua;">choose your flavor </lable>
-                            <select class="custom-select custom-select-md mb-3 flavour" id="flavor" required>
-                                <option value="vegtikka">Veg Tikka</option>
-                                <option value="chickentikka">Chicken Tikka</option>
-                                <option value="periperi">Peri-Peri Chicken</option>
-                                <option value="bbq">BBQ Steak</option>
-                                <option value="boerewors">Boerewors</option>
-                                <option value="hawaiian">Hawaiian</option>
-                                <option value="mushroom">Chicken and Mushroom</option>
-                                <option value="regina">Regina Pizza</option>
-                            </select>
+
+                    <div class="form-grp ">
+                        <lable style="color: aqua;">choose your type</lable>
+                        <select class="custom-select custom-select-md mb-3 flavour" id="type" required>
+                            <option value="vegtikka">pastry meat</option>
+                            <option value="chickentikka">pizza sausage</option>
+                            <option value="periperi">corn</option>
+                            <option value="bbq">cheese</option>
+                            <option value="boerewors">gorgonzola</option>
+                            <option value="hawaiian">olive</option>
+                            <option value="mushroom">vegetable</option>
+                            <option value="regina">pastiries</option>
+                        </select>
 
 
 
-                        </div>
-                        <div class="form-grp">
-                            <lable style="color: aqua;">choose your size</lable>
-                            <select class="custom-select custom-select-md mb-3" id="size" required>
-                                <option value=" 800">Regular 800/=</option>
-                                <option value="700">Medium 700/=</option>
-                                <option value="1200">Large 1200/=</option>
-                            </select>
+                    <div class="form-grp ">
+                        <lable style="color: aqua;">choose your flavor </lable>
+                        <select class="custom-select custom-select-md mb-3 flavour" id="flavor" required>
+                            <option value="vegtikka">Veg Tikka</option>
+                            <option value="chickentikka">Chicken Tikka</option>
+                            <option value="periperi">Peri-Peri Chicken</option>
+                            <option value="bbq">BBQ Steak</option>
+                            <option value="boerewors">Boerewors</option>
+                            <option value="hawaiian">Hawaiian</option>
+                            <option value="mushroom">Chicken and Mushroom</option>
+                            <option value="regina">Regina Pizza</option>
+                        </select>
 
 
-                        </div>
-                        <div class="form-grp">
-                            <lable style="color: aqua;">select your crust</lable>
-                            <select class="custom-select custom-select-md mb-3" id="crust" required>
-                                <option value=" 100">Thin Crust @ Ksh. 100</option>
-                                <option value="150">Thick Crust @ Ksh. 150</option>
-                                <option value=" 180">FlatBread Crust @ sh. 180</option>
-                                <option value=" 280">Custom Crust @ sh. 280</option>
-                            </select>
+
+                    </div>
+                    <div class="form-grp">
+                        <lable style="color: aqua;">choose your size</lable>
+                        <select class="custom-select custom-select-md mb-3" id="size" required>
+                            <option value=" 800">Regular 800/=</option>
+                            <option value="700">Medium 700/=</option>
+                            <option value="1200">Large 1200/=</option>
+                        </select>
 
 
-                        </div>
-                        <div class="form-grp" id="order">
-                            <lable style="color: aqua;">select your toopings</lable>
-                            <select class="custom-select custom-select-md mb-3" id="toppings" required>
-                                <option value="80">Tomato @ sh. 80</option>
-                                <option value="80">Onions @ sh. 80</option>
-                                <option value="80">Mushroom @ sh. 80</option>
-                                <option value="80">Green Pepper @ sh. 80</option>
-                                <option value=""></option>
-                                <option value="120">Olives @ sh. 120</option>
-                                <option value="120">Pineapple @ sh. 120</option>
-                                <option value="120">Sweet Corn @ sh. 120</option>
-                                <option value="120">Macon @ sh. 120</option>
-                                <option value="120">Mince @ sh. 120</option>
-                                <option value=""></option>
-                                <option value="170">Beef Peperoni @ sh. 170</option>
-                                <option value="170">Periperi Chicken @ sh. 170</option>
-                            </select>
-                            <label style="color: aqua;">Number of Pizza's</label>
-                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
-                                required>
+                    </div>
+                    <div class="form-grp">
+                        <lable style="color: aqua;">select your crust</lable>
+                        <select class="custom-select custom-select-md mb-3" id="crust" required>
+                            <option value=" 100">Thin Crust @ Ksh. 100</option>
+                            <option value="150">Thick Crust @ Ksh. 150</option>
+                            <option value=" 180">FlatBread Crust @ sh. 180</option>
+                            <option value=" 280">Custom Crust @ sh. 280</option>
+                        </select>
 
-                            <br>
-                            <button type="submit" class="btn btn-success checkout" id="checkout">
-                                Checkout
-                            </button>
-                        </div>
 
+                    </div>
+                    <div class="form-grp" id="order">
+                        <lable style="color: aqua;">select your toopings</lable>
+                        <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                            <option value="80">Tomato @ sh. 80</option>
+                            <option value="80">Onions @ sh. 80</option>
+                            <option value="80">Mushroom @ sh. 80</option>
+                            <option value="80">Green Pepper @ sh. 80</option>
+                            <option value=""></option>
+                            <option value="120">Olives @ sh. 120</option>
+                            <option value="120">Pineapple @ sh. 120</option>
+                            <option value="120">Sweet Corn @ sh. 120</option>
+                            <option value="120">Macon @ sh. 120</option>
+                            <option value="120">Mince @ sh. 120</option>
+                            <option value=""></option>
+                            <option value="170">Beef Peperoni @ sh. 170</option>
+                            <option value="170">Periperi Chicken @ sh. 170</option>
+                        </select>
+                        <label style="color: aqua;">Number of Pizza's</label>
+                        <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                            required>
+
+                        <br>
+                        <button type="submit" class="btn btn-success checkout" id="checkout" onclick="checkout()">
+                            Checkout
+                        </button>
+                    </div>
+
+
+
+
+
+                </form>
 
             </div>
-            </fieldset>
 
-            </form>
-
-        </div>
-
-<script src="script.js"></script>
+            <script src="jquery.js"></script>
+            <script src="script.js"></script>
 </body>
 
-</html>
+</html> 
