@@ -5,10 +5,7 @@ $(document).ready(function() {
     var size= $("#size").val();
     var crust= $("#crust").val();
     var toppings= $("#toppings").val();
-    var number=[];
-    number=number.lenth(function(name){return ;});
-    
-      alert(number+"")
+   
     
 
     
