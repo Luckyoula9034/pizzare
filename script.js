@@ -5,6 +5,10 @@ $(document).ready(function() {
     var size= $("#size").val();
     var crust= $("#crust").val();
     var toppings= $("#toppings").val();
+    var number=[];
+    number=number.lenth(function(name){return ;});
+    
+      alert(number+"")
     
 
     
@@ -12,7 +16,7 @@ $(document).ready(function() {
     alert("thank you for making your order")
     prompt("enter you location")
     alert("thank you for giving your location")
-    alert("You delivery will be made soon,continue shopping with us")
+    alert("You delivery will be made soon,continue shoping with us")
   });
 });
 
