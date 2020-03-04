@@ -18,7 +18,7 @@
 - At the home page you will just press the delivE  ry bike button and it will take you to our favorite options of pizza , to order .
 - Also you can select the size, toppings and the crust and the checkout to get the total.
 ## PROJECT'S LIVE LINK
-- Github link:https://luckyoula9034.github.io/pizzare/git 
+- Github link:https://luckyoula9034.github.io/pizzare/
 ## CONTACT INFORMATION
 - Email:luckyoula@gmail.com
 - phone:0759099034
